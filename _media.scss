@@ -1,0 +1,26 @@
+.btn {
+  display: none;
+}
+.container{
+  margin-right: 400px
+}
+@media (max-width:799px) {
+  .btn{
+    display: inline-block;
+  }
+  #l {
+    display: inline;
+    margin: 10px;
+  }
+  .adv {
+    display: none;
+  }
+  .container {
+    display: block;
+    width: 100%;
+  }
+}
+.list {
+  display: inline-block;
+  padding: 1em 1em 1em 0px;
+}

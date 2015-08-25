@@ -1,0 +1,131 @@
+@import "reset.scss";
+@import "font.scss";
+@import "media.scss";
+
+.siteheader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+}
+
+.logo {
+  margin-left: 5.5%;
+  padding: 1.25em 0px;
+  width: 38.2%;
+
+//  border: 2px solid black;
+  #l {
+    width: 100%;
+    max-width: 250px;
+    max-height: 90px;
+  }
+}
+.btn {
+  position: absolute;
+  top: 2em;
+  right: 1.5em;
+  width: 140px;
+
+
+}
+
+#btnmenu {
+  height: 40px;
+  width: 60px;
+  background: #E95C33 none repeat;
+  color: #FFF;
+  float: left;
+  border-radius: 5px;
+  border: 2px black;
+  margin-left: 15px;
+  font-weight: bolder;
+
+}
+#btnsearch {
+  height: 40px;
+  width: 50px;
+  background: #E95C33 none repeat;
+  color: #FFF;
+  float: left;
+  border-radius: 5px;
+  border: 2px black;
+  font-weight: bolder;
+}
+main {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.container {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: auto;
+  border-bottom: 5px solid #41B7D8;
+//  border: 2px solid black;
+}
+.links:link {
+  color: #41B7D8;
+  text-decoration: none;
+}
+.links:hover {
+  text-decoration: underline;
+}
+.articles {
+  //border: 2px solid black;
+  margin: 25px;
+  padding-bottom: 80px;
+  border-bottom: 5px solid #41B7D8;
+}
+#author {
+  padding: 0.7em 0.7em 0.7em 0px;
+  border-bottom: 0.08em solid #e0e0e0;
+}
+.content {
+  line-height: 1.2em;
+  padding: 1em 1em 1em 0px;
+}
+.articleimg {
+  width: 90%;
+  max-width: 26.315em;
+  height: auto;
+}
+.read {
+  margin: 2em 0px 0px;
+  padding: 0.35em 0.65em;
+  border: 0.08em solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.3125em;
+  background-color: #41B7D8;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin: 1em 1em 1em 0px;
+}
+.read:hover {
+  border: 2px solid black;
+}
+.adv {
+  float: right;
+  width: 400px;
+  height: auto;
+//  border: 2px solid black;
+}
+.adv1 {
+  float: left;
+  width: 45%;
+  //border: 2px solid black;
+  padding: 2%;
+}
+.adv2 {
+  float: right;
+  width: 45%;
+  //border: 2px solid black;
+  padding: 2%;
+}
+.advimg {
+  width: 100%;
+}
