@@ -1,25 +1,159 @@
-.btn {
-  display: none;
-}
-.container{
-  margin-right: 400px
-}
+
 @media (max-width:799px) {
+  .siteheader{
+    background-color: #eee;
+  }
+  .logo {
+    margin-left: 5.5%;
+    width: 38.2%;
+  }
   .btn{
     display: inline-block;
   }
   #l {
+    max-width: 250px;
+    max-height: 90px;
+    width: 100%;
     display: inline;
     margin: 10px;
+  }
+  #mymain {
+    margin-top: 110px;
+    width:100%;
   }
   .adv {
     display: none;
   }
   .container {
+    margin-top: 80px;
+    padding-left: 28px;
     display: block;
-    width: 100%;
+    width: 95%;
+  }
+  .navtags {
+    display: none;
+  }
+  .sidemenu {
+    display: none;
+  }
+  .headnav {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .socialntw {
+    display: none;
   }
 }
+@media (min-width: 800px) {
+  body {
+    background-image: url(image/smbg.png);
+  }
+  .logo {
+    margin-left:10px ;
+    width: 16.5%;
+    background-color: white;
+    border-radius: 5px;
+    #l {
+      padding-left: 10%;
+      width: 80%;
+      height: 100%;
+    }
+  }
+  #mymain {
+    top: 70px;
+    width: 99%;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .adv {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  .container{
+    background-color: white;
+    //border-radius: 10px;
+    margin-left: 10px;
+  }
+  .slide {
+    display: none !important;
+  }
+  #ms {
+    display: none;
+  }
+  #mn {
+    display: none;
+  }
+  .navtags {
+    display: none;
+    padding-top: 80px;
+    height: 50px;
+  //  border: 2px solid black;
+  }
+  .sidemenu {
+    display: table;
+  }
+  .articles{
+    margin-left: 200px;
+  }
+  .headnav {
+    display: block; }
+}
+@media (min-width: 1009px) {
+  #mymain {
+    width: 98%;
+  }
+  .adv {
+    display: block;
+  }
+  .container{
+    border-top-right-radius: 10px;
+    margin-right: 400px;
+    margin-left: 10px;
+    padding-left: 20px;
+  }
+  .navtags {
+    padding: 10px;
+    display: block;
+  }
+  .sidemenu {
+    display: none;
+  }
+  .articles{
+    margin-left: 0px;
+  }
+  .search {
+    display: none;
+  }
+  .search2 {
+    display: block;
+  }
+  .news {
+    display: block;
+  }
+  .socialntw {
+    //border: 2px solid black;
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    padding: 10px;
+    img{
+      opacity: .5;
+      padding: 5px;
+      width: 20px;
+      height: auto;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+
 .list {
   display: inline-block;
   padding: 1em 1em 1em 0px;

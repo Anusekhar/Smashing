@@ -1,8 +1,22 @@
-body{
-  font-size: 1.2em;
+
+$ProximaNova: 'Montserrat';
+$SkolarBold: 'Inknut Antiqua';
+
+
+
+.container {
+  font-family: 'Roboto', sans-serif;
+  p,a {
+    font-size: 1.1em;
+    line-height: 1.5em;
+  }
+  header{
+    font-size: 1.8em !important;
+    font-family: $SkolarBold;
+  }
 }
 .articlehead {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: 600;
   line-height: 1.1;
 }
@@ -14,4 +28,24 @@ a {
 }
 li {
   margin: 10px;
+}
+footer {
+  font-size: .8em;
+}
+#nextbtn {
+  font-size: 1em;
+}
+.navtags {
+  font-size: .7em;
+  letter-spacing: 3px;
+}
+.headnav {
+  font-family: 'Roboto', sans-serif;
+  font-size: .8em!important;
+}
+.adv {
+  color: #d0d0d0;
+}
+.slider {
+  font-family: $ProximaNova;
 }

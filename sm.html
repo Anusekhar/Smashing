@@ -5,39 +5,156 @@
     <title>SMASHING MAGAZINE</title>
     <link rel="stylesheet" href="sm.css" media="screen" title="no title" charset="utf-8">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  </head>
+    <link href='https://fonts.googleapis.com/css?family=Montaga|Inknut+Antiqua|Roboto' rel='stylesheet' type='text/css'>  </head>
   <body>
     <header class="siteheader">
+
       <div class="logo">
         <a href="#"><img id="l"src="logo.png" alt="Smashing Magazine Logo" /></a>
       </div>
-    </header>
-    <div class="btn">
-      <button id="btnsearch"type="button" name="button"><i class="material-icons">search</i></button>
-      <button id="btnmenu"type="button" name="button">MENU</button>
-    </div>
-    <main class="main">
-      <aside class="adv">
+      <div class="btn">
+        <button id="btnsearch"type="button" name="button" ><i class="material-icons">search</i></button>
+        <button id="btnmenu"type="button" name="button" >MENU</button>
+      </div>
 
+      <table class="headnav">
+        <tr>
+          <td class="">Books</td>
+          <td id="ebook">eBooks</td>
+          <td class="">Tickets</td>
+          <td class="">Shop</td>
+          <td class="">JobS</td>
+        </tr>
+        <div class="socialntw">
+          <a href="#"><img src="image/rss_feed_circle_std.png" alt="" /></a>
+          <a href="#"><img src="image/facebook-18e314d8.png" alt="" /></a>
+          <a href="#"><img src="image/Twitter-Apple-Watch-logo.png" alt="" /></a>
+          <a href="#"><img src="image/mail.png" alt="" /></a>
+        </div>
+      </table>
+    </header>
+
+    <div id="mymain">
+
+      <aside class="adv">
+        <div class="search2">
+          Search on Smashing Magazine <br><br>
+          <input id="searchbox"type="text" name="name" placeholder="eg: JavaScript">
+          <button id="searchbtn"type="button" name="button">Search</button>
+        </div>
+        <div class="news">
+          <img src="image/smnl.png" alt="" />
+          <a class="links"href="#"><header><strong>Smashing Newsletter</strong></header></a>
+          <p>
+            <br>Subscribe to our email newsletter for useful tips and valuable resources, sent out every second Tuesday.<br>
+          </p>
+          <input id="email"type="text" name="name" placeholder="email address">
+          <button id="subscribebtn"type="button" name="button">Subscribe</button>
+        </div>
         <div class="adv1">
-          Advertisement
+          <header>
+            Advertisement
+          </header>
           <img class="advimg"src="image/ai.php1.png" alt="" />
           <img class="advimg"src="image/ai.php3.png" alt="" />
         </div>
         <div class="adv2">
-
           <header style="color:#41B7D8">
             Advertise with us!
           </header>
-
-          <img class="advimg"src="image/ai.php2.png" alt="" />
-          <img class="advimg"src="image/ai.php4.png" alt="" />
+        <img class="advimg"src="image/ai.php2.png" alt="" />
+        <img class="advimg"src="image/ai.php4.png" alt="" />
         </div>
 
-    </aside>
+      </aside>
 
       <div class="container">
-        <article class="articles">
+        <div class="slide" id="ms">
+          Search on Smashing Magazine <br><br>
+          <input id="searchbox"type="text" name="name" placeholder="eg: CSS">
+          <button id="searchbtn"type="button" name="button">Search</button>
+        </div>
+        <div class="slide" id="mn">
+          <ul id="page">
+            <li><strong>Smashing Pages:</strong></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">eBooks</a></li>
+            <li><a href="#">Tickets</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Email Newsletter</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">About us / Impressum</a></li>
+          </ul>
+          <ul id="cat">
+            <li><strong>Categories:</strong></li>
+            <li><a href="#">Coding</a></li>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">Graphics</a></li>
+            <li><a href="#">UX Design</a></li>
+            <li><a href="#">WordPress</a></li>
+          </ul>
+        </div>
+        <div class="search">
+          Search on Smashing Magazine <br><br>
+          <input id="searchbox"type="text" name="name" placeholder="eg: JavaScript">
+          <button id="searchbtn"type="button" name="button">Search</button>
+        </div>
+
+        <div class="sidemenu">
+          <div class="coding">
+            <div class="sidemenubtns"><strong>CODING</strong></div>
+            <div class="sidemenubtns"><a href="#">CSS </a></div>
+            <div class="sidemenubtns"><a href="#">HTML </a></div>
+            <div class="sidemenubtns"><a href="#">JavaScript </div>
+            <div class="sidemenubtns"><a href="#">Technique</a></div>
+          </div>
+          <div class="design">
+            <div class="sidemenubtns"><strong>DESIGN</strong></div>
+            <div class="sidemenubtns"><a href="#">Web Design </a></div>
+            <div class="sidemenubtns"><a href="#">Typography </a></div>
+            <div class="sidemenubtns"><a href="#">Inspiration </a></div>
+            <div class="sidemenubtns"><a href="#">Bussiness</a></div>
+         </div>
+         <div class="mobile">
+           <div class="sidemenubtns"><strong>MOBILE</strong></div>
+           <div class="sidemenubtns"><a href="#">iPhone & iPad </a></div>
+           <div class="sidemenubtns"><a href="#">Android </a></div>
+           <div class="sidemenubtns"><a href="#">Design Patterns</a></div>
+         </div>
+         <div class="graphics">
+           <div class="sidemenubtns"><strong>GRAPHICS</strong></div>
+           <div class="sidemenubtns"><a href="#">Photoshop </a></div>
+           <div class="sidemenubtns"><a href="#">Firework</a></div>
+           <div class="sidemenubtns"><a href="#">Wallpapers </a></div>
+           <div class="sidemenubtns"><a href="#">Freebies</a></div>
+         </div>
+         <div class="ux">
+           <div class="sidemenubtns"><strong>UX DESIGN</strong></div>
+           <div class="sidemenubtns"><a href="#">Usability</a></div>
+           <div class="sidemenubtns"><a href="#">User Experience</a></div>
+           <div class="sidemenubtns"><a href="#">UI Design</a></div>
+           <div class="sidemenubtns"><a href="#"></a>E-Commerce</div>
+         </div>
+         <div class="wp">
+           <div class="sidemenubtns"><strong>WORDPRESS</strong></div>
+           <div class="sidemenubtns"><a href="#">Essentials</a></div>
+           <div class="sidemenubtns"><a href="#">Techniques</a></div>
+           <div class="sidemenubtns"><a href="#">Plugins</a></div>
+           <div class="sidemenubtns"><a href="#">Themes</a></div>
+         </div>
+         </div>
+        <table class="navtags">
+        <tr id="row">
+             <td id="code"class="menu"><strong>CODING</strong></td>
+             <td id="design"class="menu"><strong>DESIGN</strong></td>
+             <td id="mobile"class="menu"><strong>MOBILE</strong></td>
+             <td id="graphics"class="menu"><strong>GRAPHICS</strong></td>
+             <td id="ux"class="menu"><strong>UX DESIGN</strong></td>
+             <td id="wp"class="menu"><strong>WORDPRESS</strong></td>
+           </tr>
+         </table>
+      <article class="articles">
           <header class="articlehead">
             Typographic Patterns In HTML Email Newsletter Design
           </header>
@@ -57,24 +174,16 @@
               <a class="links"href="#">9 Comments</a></li>
           </ul>
           <p class="content">
-Last year I read Jan Constantin’s post “
-<a class="links"href="#">Typographic Design Patterns and Current Practices</a>”
-and straightaway wanted to do something similar with email.
-At the time I was studying <strong>responsive typography</strong> on the web,
-trying to break down the websites I liked in order to understand
-what made the typography work so well,
-then attempting to apply those findings to email design.
+            Last year I read Jan Constantin’s post “<a class="links"href="#">Typographic Design Patterns and Current Practices</a>”and straightaway wanted to do something similar with email.At the time I was studying <strong>responsive typography</strong> on the web,trying to break down the websites I liked in order to understandwhat made the typography work so well,then attempting to apply those findings to email design.
           </p>
           <img class="articleimg"src="image/10-heading-sizes-opt-small.jpg" alt="" />
           <p class="content">
-After seeing Constantin’s work, I also wanted to explore how other <strong>email designers were handling responsive typography.</strong>
-So, I amassed 50 emails across various industries that I think do a good job with typography to see if any patterns emerged.
-You can skip straight to the Google Doc showing the raw data and results.
+            After seeing Constantin’s work, I also wanted to explore how other <strong>email designers were handling responsive typography.</strong>So, I amassed 50 emails across various industries that I think do a good job with typography to see if any patterns emerged.You can skip straight to the Google Doc showing the raw data and results.
           </p>
           <a class="read"href="#"><strong>Read More....</strong></a>
        </article>
 
-         <article class="articles">
+       <article class="articles">
            <header class="articlehead">
              Web Development Reading List #100
            </header>
@@ -89,22 +198,43 @@ You can skip straight to the Google Doc showing the raw data and results.
                 </li>
              </ul>
              <p class="content">
-What's happening in the industry? What important techniques have emerged recently? What about new case studies,
-insights, techniques and tools? Our dear friend Anselm Hannemann is keeping track of everything so you don't have to.
-The result is a carefully collected list of articles that popped up over the last week and which might interest you.
-Starting from today, we are happy and honored to feature a <strong>bi-monthly web development reading list</strong> here on Smashing Magazine.
-Now it should be a bit easier to stay up to date. — Ed.
-         </p>
-         <img class="articleimg"src="image/howdnsworks-opt.png" alt="" />
-         <p class="content">
-Welcome to the one hundredth edition of the <a class="links"href="#">Web Development Reading List</a> and the first one to appear on Smashing Magazine.
-I am very happy to extend my audience and keep you up to date with the web development industry.
-If you have any feedback, please let me know in the comments or write me an email.
-         </p>
-         <a class="read"href="#"><strong>Read More....</strong></a>
-       </article>
+               What's happening in the industry? What important techniques have emerged recently? What about new case studies,insights, techniques and tools? Our dear friend Anselm Hannemann is keeping track of everything so you don't have to.The result is a carefully collected list of articles that popped up over the last week and which might interest you.Starting from today, we are happy and honored to feature a <strong>bi-monthly web development reading list</strong> here on Smashing Magazine.Now it should be a bit easier to stay up to date. — Ed.
+            </p>
+            <img class="articleimg"src="image/howdnsworks-opt.png" alt="" />
+            <p class="content">
+           Welcome to the one hundredth edition of the <a class="links"href="#">Web Development Reading List</a> and the first one to appear on Smashing Magazine.I am very happy to extend my audience and keep you up to date with the web development industry.If you have any feedback, please let me know in the comments or write me an email.
+          </p>
+          <a class="read"href="#"><strong>Read More....</strong></a>
+        </article>
+        <div class="divnum">
+          <a class="next"href="#">1</a>
+          <a class="next"href="#">2</a>
+          <a class="next"href="#">3</a>
+          <a class="next"href="#">4</a>
+          <a class="next"href="#">5</a>
+          <button id="nextbtn"type="button" name="button">next</button>
+        </div>
+        <footer>
+          <div id="smashingbook">
+            <img class="footerimg"src="image/footer-sb5.png" alt="*" />
+            <a class="links"href="#"><strong>Smashing Book 5 <br></strong></a>
+            With smart front-end techniques from real-life responsive projects.<a class="links"href="#"><br>Learn more...</a>
+          </div>
+          <div id="smashinglib">
+            <img class="footerimg"src="image/smashing-library-footer-new-opt.png" alt="*" />
+            <a class="links"href="#"><strong>The Smashing Library <br></strong></a>
+            Grab all published and upcoming Smashing eBooks, in one swoop.<a class="links"href="#"><br>Learn more...</a>
+          </div>
+          <div id="smashingwork">
+            <img class="footerimg"src="image/susan-weinschenk.jpg" alt="*" />
+            <a class="links"href="#"><strong>Smashing Workshops <br></strong></a>
+            Join our hands-on full-day workshops, run by experts of the industry. Good stuff. <a class="links"href="#"><br>Learn more...</a>
+          </div>
+          <p id="about"><i>With a commitment to quality content for the design community. <br>Founded by Vitaly Friedman and Sven Lennartz. 2006-2015. <br>Made in Germany. ✎ <a class="links"href="#">Write for us – Contact us – Impressum.</a></i>
+          </p>
+        </footer>
       </div>
-    </main>
-
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
